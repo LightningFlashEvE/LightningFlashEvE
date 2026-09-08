@@ -1,75 +1,74 @@
-<div align="center">
+<p align="center">
+  <img src="assets/hero.svg" width="100%" alt="Wright — AI Hardware & Embedded Systems Engineer. From idea to a working system.">
+</p>
 
-# Hi, I'm Wright 👋
+<p align="center">
+  <b>AI 硬件 · 嵌入式系统 · 软硬件全栈</b><br>
+  AI Hardware &amp; Embedded Systems Engineer · MVP Builder
+</p>
 
-### AI Hardware & Embedded Systems Engineer · MVP Builder
-### AI 硬件 / 嵌入式 / 软硬件全栈工程师
+<p align="center">
+  <a href="#selected-work">代表作品 / Work</a> &nbsp; · &nbsp;
+  <a href="#project-index">更多项目 / Projects</a> &nbsp; · &nbsp;
+  <a href="#private-work">私有项目 / Private</a> &nbsp; · &nbsp;
+  <a href="#toolkit">技术能力 / Toolkit</a>
+</p>
 
-**把想法做成可以运行、测试和展示的系统。**<br>
-**From idea to a working system.**
+<br>
 
-AI Hardware · Edge AI · Industrial Automation · Connected Devices
+**从电路与固件，到 AI 与应用，把想法做成完整系统。**
 
-</div>
+我专注于 AI 硬件、边缘计算与工业自动化，连接电子电路、设备通信、应用软件和部署，构建可以运行、测试和展示的产品原型。
 
----
+I build AI hardware and connected systems — bringing electronics, firmware, applications, and deployment together into prototypes you can test and demonstrate.
 
-## 关于我 · About Me
+<br>
 
-我专注于 **AI 硬件、嵌入式系统与工业自动化**，喜欢解决跨越软硬件边界的问题。从电路与 PCB、固件和设备通信，到桌面 / Web 应用、AI 集成与后端部署，我擅长把各个环节连接起来，构建完整的产品原型。
+<a id="selected-work"></a>
+## 01 / Selected Work · 代表作品
 
-I build **AI-powered hardware and connected systems**, working across electronics, firmware, device communication, applications, and deployment. My strength is connecting these layers into an integrated prototype that can be tested and demonstrated.
+四个方向，一条完整的工程链路。<br>
+Four perspectives on building connected, intelligent systems.
 
-> **从硬件到软件，从设备到 AI，从想法到原型。**<br>
-> Electronics → Firmware → Connectivity → Applications & AI → Working Prototype
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/LightningFlashEvE/dispenser-ai"><img src="assets/dispenser.svg" width="100%" alt="dispenser-ai — Edge AI and industrial automation"></a>
+<h3><a href="https://github.com/LightningFlashEvE/dispenser-ai">AI 自动配药系统 ↗</a></h3>
+<p>在 Jetson 上连接本地语音 AI、结构化任务、规则校验与设备控制。</p>
+<p>Local AI meets industrial workflows, with user confirmation and rule validation before control execution.</p>
+<p><code>Jetson</code> <code>Qwen</code> <code>FastAPI</code> <code>MCP</code></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/LightningFlashEvE/InkSeat"><img src="assets/inkseat.svg" width="100%" alt="InkSeat — Cloud-managed low-power E-Ink displays"></a>
+<h3><a href="https://github.com/LightningFlashEvE/InkSeat">InkSeat · 墨席 ↗</a></h3>
+<p>低功耗彩色墨水屏桌牌，连接嵌入式固件、模板编辑器与云端服务。</p>
+<p>Cloud-managed E-Ink desk signs, from embedded firmware to browser-based content design and distribution.</p>
+<p><code>ESP32</code> <code>E-Ink</code> <code>IoT</code> <code>Docker</code></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/LightningFlashEvE/shiyin-ai-meeting-notes"><img src="assets/shiyin.svg" width="100%" alt="Shiyin AI — Meeting transcription and summaries"></a>
+<h3><a href="https://github.com/LightningFlashEvE/shiyin-ai-meeting-notes">Shiyin AI · 拾音 ↗</a></h3>
+<p>实时转写、本地发言人识别与会议总结。录音和声纹本地存储，转写与总结使用云端 API。</p>
+<p>A Windows meeting app with local speaker identification and recording storage, plus cloud transcription and summaries.</p>
+<p><code>Electron</code> <code>Speech AI</code> <code>LLM</code> <code>SQLite</code></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/LightningFlashEvE/ai-driven-smart-house-hunting"><img src="assets/house.svg" width="100%" alt="AI House Hunting — Maps and intelligent listing analysis"></a>
+<h3><a href="https://github.com/LightningFlashEvE/ai-driven-smart-house-hunting">AI 智能看房 ↗</a></h3>
+<p>以地图为核心，整合 AI 房源分析、多位置通勤圈与地铁线路。</p>
+<p>Map-based rental search with AI-assisted listing analysis, commute areas, and subway routes.</p>
+<p><code>JavaScript</code> <code>Maps</code> <code>LLM</code> <code>Docker</code></p>
+</td>
+</tr>
+</table>
 
-## 代表项目 · Selected Projects
+<br>
 
-### 💊 [dispenser-ai · AI 自动配药系统](https://github.com/LightningFlashEvE/dispenser-ai)
-
-**让自然语言交互连接工业设备工作流。**<br>
-**Connecting natural-language interaction with industrial workflows.**
-
-基于 NVIDIA Jetson 的本地 AI 粉末配料系统，整合语音交互、结构化任务生成、实时称重反馈与设备通信。采用 **AI 理解 → 用户确认与规则校验 → 控制执行** 的分层设计。
-
-A Jetson-based powder dispensing system combining local speech and language models with structured tasks, weighing feedback, and device communication. The architecture separates AI understanding from user confirmation, rule validation, and control execution.
-
-`NVIDIA Jetson` · `Qwen` · `whisper.cpp` · `FastAPI` · `Vue` · `MCP`
-
-### 🖥️ [InkSeat · 墨席](https://github.com/LightningFlashEvE/InkSeat)
-
-**云控低功耗彩色电子墨水桌牌。**<br>
-**Cloud-managed, low-power color E-Ink desk signs.**
-
-连接嵌入式固件、Web 模板编辑器与云端服务，支持桌牌内容设计、名单下发和远程显示更新，把设备端与日常内容管理串成完整流程。
-
-A connected display system spanning embedded firmware, a web template editor, and cloud services, with nameplate distribution and remote content updates.
-
-`ESP32` · `E-Ink` · `Low-Power IoT` · `Python` · `Docker`
-
-### 🎙️ [Shiyin AI · 拾音](https://github.com/LightningFlashEvE/shiyin-ai-meeting-notes)
-
-**从会议录音到带发言人的转写与总结。**<br>
-**From meeting audio to speaker-aware transcripts and summaries.**
-
-Windows 会议听记应用，结合实时转写、本地发言人识别、滚动会议草稿与正式报告。录音和声纹数据保存在本机，转写与总结使用云端 API。
-
-A Windows meeting application with live transcription, local speaker identification, rolling drafts, and final reports. Recordings and voiceprints are stored locally; transcription and summarization use cloud APIs.
-
-`Electron` · `Speech AI` · `Speaker Identification` · `LLM` · `SQLite`
-
-### 🏠 [AI-driven Smart House Hunting · AI 智能看房](https://github.com/LightningFlashEvE/ai-driven-smart-house-hunting)
-
-**把房源、通勤与 AI 分析放在同一张地图上。**<br>
-**Property listings, commute areas, and AI analysis on one map.**
-
-以地图为核心的租房辅助应用，结合房源信息提取与分析、多位置通勤圈、地铁线路展示和房源管理。
-
-A map-based rental search application combining AI-assisted listing extraction and analysis with commute areas, subway routes, and property management.
-
-`JavaScript` · `Maps` · `LLM Integration` · `SQLite` · `Docker`
-
-## 更多项目 · More Projects
+<a id="project-index"></a>
+## 02 / Project Index · 更多项目
 
 ### 设备采集与工业软件 · Data Acquisition & Industrial Software
 
@@ -88,7 +87,10 @@ A map-based rental search application combining AI-assisted listing extraction a
 | [仙凡录数值平衡 / Xianfanlu Balance](https://github.com/LightningFlashEvE/xianfanlu-balance) | 游戏数值平衡评估项目。<br>A project for evaluating game balance and progression systems. |
 | [仙侠 RPG / XianxiaRPG](https://github.com/LightningFlashEvE/XianxiaRPG) | 使用 Unity 构建的仙侠 RPG 游戏项目。<br>A xianxia role-playing game project built with Unity. |
 
-## 私有项目 · Private Projects
+<br>
+
+<a id="private-work"></a>
+## 03 / Private Work · 私有项目
 
 **念 · Nian — AI 语音记忆助理 / AI Voice Memory Assistant**<br>
 围绕本地存储、语音转写、自动记忆与带出处问询，探索从日常语音到可检索个人记忆的体验。<br>
@@ -100,7 +102,15 @@ Device firmware and communication protocols for Nian, maintained separately from
 
 *以上两个项目保持私有，此处仅展示项目概述。 / These two repositories remain private; only brief project overviews are shared here.*
 
-## 技术能力 · Engineering Toolkit
+<br>
+
+<a id="toolkit"></a>
+## 04 / Engineering Toolkit · 技术能力
+
+**Electronics → Firmware → Connectivity → Applications & AI → Deployment**
+
+<details>
+<summary><b>展开完整技术栈 / Explore the full toolkit</b></summary>
 
 | 方向 · Area | 技术与能力 · Technologies & Capabilities |
 | :--- | :--- |
@@ -110,29 +120,21 @@ Device firmware and communication protocols for Nian, maintained separately from
 | **应用与后端 · Applications & Backend** | Python · JavaScript / TypeScript · FastAPI · Vue · Flutter · Qt · REST / WebSocket · SQLite / PostgreSQL |
 | **原型与部署 · Prototyping & Deployment** | 3D 打印 / 3D printing · 机械原型 / Mechanical prototyping · PCB / SMT · 系统联调 / System integration · Docker · Linux |
 
-## 工作方式 · How I Work
+</details>
 
-- **先明确场景，再验证关键假设。** 从需求和约束出发，用能跑通完整流程的原型验证方案。<br>
-  **Start with the use case.** Define the constraints and build a complete prototype to test the key assumptions.
-- **关注系统之间如何连接。** 一起考虑硬件、固件、通信、应用与部署，让各层协同工作。<br>
-  **Think across layers.** Design hardware, firmware, interfaces, and services to work together.
-- **让运行过程可观察。** 通过设备反馈、日志和清晰的状态管理支持联调与排错。<br>
-  **Make behavior observable.** Use device feedback, logs, and clear system states to support integration and debugging.
+<br>
 
-持续探索 **AI 原生硬件、机器人、人机交互与本地优先 AI**，尤其关注 AI 如何与真实设备交互。<br>
-Currently exploring **AI-native devices, robotics, human-machine interaction, and local-first AI** — especially where intelligence meets the physical world.
+## 05 / Let's Build · 合作交流
 
-## 合作交流 · Let's Build
+**AI 硬件 MVP · 智能设备 · 工业自动化 · 软硬件一体化原型**
 
-欢迎交流 **AI 硬件 MVP、嵌入式与 IoT 设备、工业自动化、边缘 AI，以及软硬件一体化原型开发**。如果你正在验证一个产品想法，或需要打通设备到应用的完整链路，这正是我感兴趣的问题。
+从使用场景和约束出发，用完整原型验证关键假设，让各层协同工作，并通过设备反馈与清晰的状态管理支持联调。
 
-I'm open to focused collaborations on **AI hardware MVPs, embedded and IoT systems, industrial automation, edge AI, and integrated hardware–software prototypes**. I enjoy helping turn a product idea into a working system, from the device to the application.
+I start with the use case, validate assumptions with integrated prototypes, and make system behavior observable through device feedback and clear states.
 
----
+欢迎产品原型与技术合作交流。<br>
+Open to focused collaborations on AI hardware, embedded systems, and device-connected applications.
 
-<div align="center">
+<br>
 
-**把想法落到实物，把系统真正跑通。**<br>
-**Build the prototype. Connect the pieces. Make it work.**
-
-</div>
+<p align="center"><sub>WRIGHT &nbsp; / &nbsp; HARDWARE × SOFTWARE × INTELLIGENCE</sub><br><b>把系统真正跑通。 / Make it work.</b></p>

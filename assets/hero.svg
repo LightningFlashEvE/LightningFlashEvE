@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1136" height="360" viewBox="0 0 1136 360" fill="none" role="img" aria-labelledby="title">
+<title id="title">Wright — AI Hardware &amp; Embedded Systems Engineer. From idea to a working system.</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1136" y2="360" gradientUnits="userSpaceOnUse"><stop stop-color="#151B20"/><stop offset="1" stop-color="#080D11"/></linearGradient>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.8" fill="#56616A" opacity="0.24"/></pattern>
+</defs>
+<rect width="1136" height="360" rx="16" fill="url(#bg)"/>
+<rect x="690" y="24" width="420" height="300" fill="url(#dots)"/>
+<path d="M48 41H82" stroke="#E7A776" stroke-width="3"/>
+<text x="96" y="46" fill="#B6BFC5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" letter-spacing="2">WRIGHT / ENGINEERING PORTFOLIO</text><text x="44" y="153" fill="#F4F0E9" font-family="Arial, Helvetica, sans-serif" font-size="100" font-weight="600" letter-spacing="-5">WRIGHT</text><text x="48" y="207" fill="#E7A776" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" letter-spacing="-0.5">Hardware. Software. Intelligence.</text><text x="48" y="246" fill="#AEB9C1" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" letter-spacing="0">From idea to a working system.</text><path d="M48 285H658" stroke="#354049"/><text x="48" y="318" fill="#C6CFD5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" letter-spacing="1.5">AI HARDWARE</text><text x="207" y="318" fill="#C6CFD5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" letter-spacing="1.5">EMBEDDED SYSTEMS</text><text x="426" y="318" fill="#C6CFD5" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" letter-spacing="1.5">MVP DEVELOPMENT</text><g stroke-linejoin="round">
+<path d="M748 244L894 172L1040 244L894 318Z" fill="#111C24" stroke="#354A58"/>
+<path d="M748 195L894 123L1040 195L894 269Z" fill="#172630" stroke="#597381"/>
+<path d="M748 146L894 74L1040 146L894 220Z" fill="#243A43" stroke="#9BB9BE"/>
+<path d="M804 146L894 102L984 146L894 192Z" fill="#17262D" stroke="#63868B"/>
+<path d="M862 146L894 130L926 146L894 162Z" fill="#E7A776" stroke="#F5D1AA"/>
+<path d="M748 146V244M894 220V318M1040 146V244" stroke="#526C78" stroke-dasharray="3 6"/>
+<path d="M926 146H1060V94H1090M862 146H729V96H700M894 162V245" stroke="#E7A776" stroke-width="1.5"/>
+<circle cx="1090" cy="94" r="4" fill="#E7A776"/><circle cx="700" cy="96" r="4" fill="#E7A776"/><circle cx="894" cy="245" r="4" fill="#E7A776"/>
+</g>
+</svg>
