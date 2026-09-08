@@ -69,6 +69,37 @@ A map-based rental search application combining AI-assisted listing extraction a
 
 `JavaScript` · `Maps` · `LLM Integration` · `SQLite` · `Docker`
 
+## 更多项目 · More Projects
+
+### 设备采集与工业软件 · Data Acquisition & Industrial Software
+
+| 项目 · Project | 简介 · Overview |
+| :--- | :--- |
+| [双路摄像头采集系统 / Dual-Camera Capture](https://github.com/LightningFlashEvE/dual-camera-capture-system) | 第一人称与俯视双路 4K 采集、同步标注、实验包与 NAS 校验上传。<br>Dual-view 4K capture, synchronized annotations, experiment packaging, and verified NAS uploads. |
+| 高通量钙钛矿配药控制 / Perovskite Dispensing Control · *Private* | 面向高通量配药设备的 C++ / Qt 控制软件，包含工艺流程可视化与设备交互模块。<br>C++ / Qt software for high-throughput dispensing equipment, with workflow visualization and device interaction modules. |
+| [ESP32 LED Control](https://github.com/LightningFlashEvE/esp32-led-control) | 基于 ESP-IDF 的 Wi-Fi 热点与 Web LED 控制，支持浏览器操作和状态显示。<br>An ESP-IDF Wi-Fi access point and web interface for LED control and status feedback. |
+
+### 工程工具与互动实验 · Engineering Tools & Interactive Projects
+
+| 项目 · Project | 简介 · Overview |
+| :--- | :--- |
+| [EasyEDA Circuit Skill](https://github.com/LightningFlashEvE/light-easyeda-circuit-skill) | 个人 EasyEDA 电路设计工作流 Skill。<br>A personal skill for circuit design workflows in EasyEDA. |
+| [弹幕猜词 / Guess Danmaku Game](https://github.com/LightningFlashEvE/guess-danmaku-game) | 基于语义相似度的弹幕猜词直播互动游戏。<br>A livestream word-guessing game driven by semantic similarity. |
+| [仙凡录数值平衡 / Xianfanlu Balance](https://github.com/LightningFlashEvE/xianfanlu-balance) | 游戏数值平衡评估项目。<br>A project for evaluating game balance and progression systems. |
+| [仙侠 RPG / XianxiaRPG](https://github.com/LightningFlashEvE/XianxiaRPG) | 使用 Unity 构建的仙侠 RPG 游戏项目。<br>A xianxia role-playing game project built with Unity. |
+
+## 私有项目 · Private Projects
+
+**念 · Nian — AI 语音记忆助理 / AI Voice Memory Assistant**<br>
+围绕本地存储、语音转写、自动记忆与带出处问询，探索从日常语音到可检索个人记忆的体验。<br>
+An AI voice memory assistant exploring local storage, transcription, automatic memory organization, and answers grounded in recorded sources.
+
+**Nian-DevKit — 念硬件开发套件 / Hardware DevKit**<br>
+为念配套的设备固件与通信协议，独立于手机 App 维护。<br>
+Device firmware and communication protocols for Nian, maintained separately from the mobile application.
+
+*以上两个项目保持私有，此处仅展示项目概述。 / These two repositories remain private; only brief project overviews are shared here.*
+
 ## 技术能力 · Engineering Toolkit
 
 | 方向 · Area | 技术与能力 · Technologies & Capabilities |
