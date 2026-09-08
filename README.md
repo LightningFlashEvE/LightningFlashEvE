@@ -76,7 +76,7 @@ A map-based rental search application combining AI-assisted listing extraction a
 | 项目 · Project | 简介 · Overview |
 | :--- | :--- |
 | [双路摄像头采集系统 / Dual-Camera Capture](https://github.com/LightningFlashEvE/dual-camera-capture-system) | 第一人称与俯视双路 4K 采集、同步标注、实验包与 NAS 校验上传。<br>Dual-view 4K capture, synchronized annotations, experiment packaging, and verified NAS uploads. |
-| 高通量钙钛矿配药控制 / Perovskite Dispensing Control · *Private* | 面向高通量配药设备的 C++ / Qt 控制软件，包含工艺流程可视化与设备交互模块。<br>C++ / Qt software for high-throughput dispensing equipment, with workflow visualization and device interaction modules. |
+| [高通量钙钛矿配药控制 / Perovskite Dispensing Control](https://github.com/LightningFlashEvE/high-throughput-perovskite-medication-system) | 面向高通量配药设备的 C++ / Qt 控制软件，包含工艺流程可视化与设备交互模块。<br>C++ / Qt software for high-throughput dispensing equipment, with workflow visualization and device interaction modules. |
 | [ESP32 LED Control](https://github.com/LightningFlashEvE/esp32-led-control) | 基于 ESP-IDF 的 Wi-Fi 热点与 Web LED 控制，支持浏览器操作和状态显示。<br>An ESP-IDF Wi-Fi access point and web interface for LED control and status feedback. |
 
 ### 工程工具与互动实验 · Engineering Tools & Interactive Projects
