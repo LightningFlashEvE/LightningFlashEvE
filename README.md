@@ -27,6 +27,8 @@ I build AI hardware and connected systems — bringing electronics, firmware, ap
 <a id="selected-work"></a>
 ## 01 / Selected Work · 代表作品
 
+公开技术案例：[架构图、数据流、选型与工程复盘 / Case Studies](https://github.com/LightningFlashEvE/case-studies)。InkSeat、拾音和双路采集入口指向公开案例，源码保持私有。
+
 四个方向，一条完整的工程链路。<br>
 Four perspectives on building connected, intelligent systems.
 
@@ -40,8 +42,8 @@ Four perspectives on building connected, intelligent systems.
 <p><code>Jetson</code> <code>Qwen</code> <code>FastAPI</code> <code>MCP</code></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/LightningFlashEvE/InkSeat"><img src="assets/inkseat.svg" width="100%" alt="InkSeat — Cloud-managed low-power E-Ink displays"></a>
-<h3><a href="https://github.com/LightningFlashEvE/InkSeat">InkSeat · 墨席 ↗</a></h3>
+<a href="https://github.com/LightningFlashEvE/case-studies/tree/main/inkseat"><img src="assets/inkseat.svg" width="100%" alt="InkSeat — Cloud-managed low-power E-Ink displays"></a>
+<h3><a href="https://github.com/LightningFlashEvE/case-studies/tree/main/inkseat">InkSeat · 墨席 ↗</a></h3>
 <p>低功耗彩色墨水屏桌牌，连接嵌入式固件、模板编辑器与云端服务。</p>
 <p>Cloud-managed E-Ink desk signs, from embedded firmware to browser-based content design and distribution.</p>
 <p><code>ESP32</code> <code>E-Ink</code> <code>IoT</code> <code>Docker</code></p>
@@ -49,8 +51,8 @@ Four perspectives on building connected, intelligent systems.
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/LightningFlashEvE/shiyin-ai-meeting-notes"><img src="assets/shiyin.svg" width="100%" alt="Shiyin AI — Meeting transcription and summaries"></a>
-<h3><a href="https://github.com/LightningFlashEvE/shiyin-ai-meeting-notes">Shiyin AI · 拾音 ↗</a></h3>
+<a href="https://github.com/LightningFlashEvE/case-studies/tree/main/shiyin-ai-meeting-notes"><img src="assets/shiyin.svg" width="100%" alt="Shiyin AI — Meeting transcription and summaries"></a>
+<h3><a href="https://github.com/LightningFlashEvE/case-studies/tree/main/shiyin-ai-meeting-notes">Shiyin AI · 拾音 ↗</a></h3>
 <p>实时转写、本地发言人识别与会议总结。录音和声纹本地存储，转写与总结使用云端 API。</p>
 <p>A Windows meeting app with local speaker identification and recording storage, plus cloud transcription and summaries.</p>
 <p><code>Electron</code> <code>Speech AI</code> <code>LLM</code> <code>SQLite</code></p>
@@ -74,7 +76,7 @@ Four perspectives on building connected, intelligent systems.
 
 | 项目 · Project | 简介 · Overview |
 | :--- | :--- |
-| [双路摄像头采集系统 / Dual-Camera Capture](https://github.com/LightningFlashEvE/dual-camera-capture-system) | 第一人称与俯视双路 4K 采集、同步标注、实验包与 NAS 校验上传。<br>Dual-view 4K capture, synchronized annotations, experiment packaging, and verified NAS uploads. |
+| [双路摄像头采集系统 / Dual-Camera Capture](https://github.com/LightningFlashEvE/case-studies/tree/main/dual-camera-capture) | 第一人称与俯视双路 4K 采集、同步标注、实验包与 NAS 校验上传。<br>Dual-view 4K capture, synchronized annotations, experiment packaging, and verified NAS uploads. |
 | [高通量钙钛矿配药控制 / Perovskite Dispensing Control](https://github.com/LightningFlashEvE/high-throughput-perovskite-medication-system) | 面向高通量配药设备的 C++ / Qt 控制软件，包含工艺流程可视化与设备交互模块。<br>C++ / Qt software for high-throughput dispensing equipment, with workflow visualization and device interaction modules. |
 | [ESP32 LED Control](https://github.com/LightningFlashEvE/esp32-led-control) | 基于 ESP-IDF 的 Wi-Fi 热点与 Web LED 控制，支持浏览器操作和状态显示。<br>An ESP-IDF Wi-Fi access point and web interface for LED control and status feedback. |
 
